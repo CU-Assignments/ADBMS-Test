@@ -43,3 +43,69 @@
 ---
 
 
+
+
+
+
+# SQL Joins Test Questions  
+
+## 1. List MCA Students  
+**Problem Statement:**  
+Write an SQL query to display the names of all students enrolled in the "MCA" course.  
+
+---
+
+## 2. Total Fee Collected per Course  
+**Problem Statement:**  
+Write a query to calculate the total fee collected for each course.  
+
+---
+
+## 3. Students with Course Details  
+**Problem Statement:**  
+Display student names along with the courses they are enrolled in.  
+
+---
+
+## 4. Courses Without Enrollments  
+**Problem Statement:**  
+Write a query to display the names of courses that have no students enrolled.  
+
+---
+
+## 5. Find Students Who Haven’t Paid Fees  
+**Problem Statement:**  
+Retrieve the names of students who are enrolled in a course but haven’t paid the fee.  
+
+---
+
+## 6. Count of Students in Each Course  
+**Problem Statement:**  
+Write a query to display each course and the number of students enrolled in it.  
+
+---
+
+## 7. Highest Fee Paid by a Student  
+**Problem Statement:**  
+Retrieve the student name and course name where the highest fee has been paid.  
+
+---
+
+## 8. Students Enrolled After a Certain Date  
+**Problem Statement:**  
+Write a query to display the names of students who enrolled after '2024-01-01'.  
+
+---
+
+## 9. Find Common Students in Two Courses  
+**Problem Statement:**  
+Write a query to find students enrolled in both "B.Tech" and "MCA" courses.  
+
+---
+
+## 10. Instructor Assigned to Each Course  
+**Problem Statement:**  
+Display course names along with their assigned instructor names.  
+
+
+
