@@ -108,4 +108,133 @@ Write a query to find students enrolled in both "B.Tech" and "MCA" courses.
 Display course names along with their assigned instructor names.  
 
 
+# SQL Aggregate Functions Test Questions  
+
+## 1. Total Number of Students  
+**Problem Statement:**  
+Write an SQL query to count the total number of students in the **Students** table.  
+
+---
+
+## 2. Average Fee Paid  
+**Problem Statement:**  
+Write a query to calculate the **average fee paid** by students in the **Enrollments** table.  
+
+---
+
+## 3. Highest and Lowest Fee Paid  
+**Problem Statement:**  
+Write a query to find the **highest** and **lowest** fee paid by students.  
+
+---
+
+## 4. Total Students in Each Course  
+**Problem Statement:**  
+Write a query to display the **course name** along with the **total number of students** enrolled in each course.  
+
+---
+
+## 5. Count of Students Who Paid Fees  
+**Problem Statement:**  
+Write a query to count the number of students who have paid their fees (i.e., `fee_paid > 0`).  
+
+
+# SQL Questions Using IN and BETWEEN  
+
+## 1. Find Students Enrolled in Specific Courses  
+**Problem Statement:**  
+Write an SQL query to display the names of students who are enrolled in **"MCA", "B.Tech", or "BCA"** courses.  
+
+
+---
+
+## 2. Find Students Who Paid Fees in a Specific Range  
+**Problem Statement:**  
+Write a query to retrieve student names and the amount they paid where the **fee_paid is between 30,000 and 80,000**.  
+
+
+---
+
+## 3. Find Courses Starting Between Two Dates  
+**Problem Statement:**  
+Write an SQL query to display the course names that started **between '2024-01-01' and '2024-06-30'**.  
+
+
+---
+
+## 4. Find Students from a Specific Set of Cities  
+**Problem Statement:**  
+Write a query to display student names who are from the cities **"Delhi", "Mumbai", or "Bangalore"**.  
+
+
+---
+
+## 5. Find Students Who Enrolled in a Specific Year Range  
+**Problem Statement:**  
+Write an SQL query to display student names who enrolled **between 2022 and 2024**.  
+
+
+# SQL Normalization Questions  
+
+## 1. Identify the Normal Form  
+**Problem Statement:**  
+Consider the following table:  
+
+| OrderID | CustomerName | ProductName | Quantity | Price | TotalAmount |  
+|---------|-------------|-------------|----------|-------|-------------|  
+| 101     | Rahul       | Laptop      | 1        | 50000 | 50000       |  
+| 102     | Sneha       | Mobile      | 2        | 20000 | 40000       |  
+
+- Identify which **normal form** (1NF, 2NF, 3NF, BCNF) this table is in.  
+- Justify your answer and suggest how it can be further normalized.  
+
+---
+
+## 2. Convert to First Normal Form (1NF)  
+**Problem Statement:**  
+A university stores student and their enrolled courses in a single table:  
+
+| StudentID | StudentName | Courses |  
+|-----------|------------|---------|  
+| 1         | Amit       | Math, Science, English |  
+| 2         | Priya      | Physics, Chemistry |  
+
+- Identify the issue in this design.  
+- Convert this table into **1NF**.  
+
+---
+
+## 3. Convert to Second Normal Form (2NF)  
+**Problem Statement:**  
+A hospital maintains the following table:  
+
+| PatientID | PatientName | DoctorID | DoctorName | Department | Disease |  
+|-----------|------------|----------|------------|------------|---------|  
+| 1         | Rahul      | D101     | Dr. Sharma | Cardiology | Heart Issue |  
+| 2         | Anjali     | D102     | Dr. Verma  | Neurology  | Migraine    |  
+
+- Identify if this table is in **1NF** or **2NF**.  
+- If not in 2NF, **normalize it to 2NF** by splitting into separate tables.  
+
+---
+
+## 4. Convert to Third Normal Form (3NF)  
+**Problem Statement:**  
+A company stores employee data as follows:  
+
+| EmpID | EmpName | Department | DeptLocation | ManagerID | ManagerName |  
+|-------|--------|------------|-------------|-----------|-------------|  
+| 101   | Raj    | IT         | Mumbai      | 201       | Mr. Sharma  |  
+| 102   | Meera  | HR         | Delhi       | 202       | Ms. Gupta   |  
+
+- Identify if this table violates **3NF**.  
+- If so, **normalize it into 3NF**.  
+
+---
+
+
+
+
+
+
 
